@@ -5,7 +5,7 @@ def main():
 	print(" ")
 	time=input("Enter a number from 1 to 12: ")
 	items=input("Enter a noun (plural): ")
-	name=input("Enter a name: ").capitalize()
+	name=input("Enter a name: ").title()
 	scream=input("Enter any sentnce: ").upper()
 	action=input("Enter any action: ")
 
@@ -18,4 +18,6 @@ def main():
 	Just as I closed the door I heard a scream "{}."
 	I froze in place and all I could do was {}.''').format(time,items,name,scream,action)
 	print(result)
-main()
+
+if __name__ == '__main__':
+	main()
