@@ -2,7 +2,7 @@ def main():
 	# write your code here
 	print("Mad libs where libs get mad.")
 	print("Start below:")
-	print("")
+	print(" ")
 	time=input("Enter a number from 1 to 12: ")
 	items=input("Enter a noun (plural): ")
 	name=input("Enter a name: ").capitalize()
@@ -10,7 +10,7 @@ def main():
 	action=input("Enter any action: ")
 
 	print("The story goes...")
-    print("")
+	print(" ")
 
 
 	result=('''It was {} o'clock when I heard a knock at the door.
